@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dev/!svn/ver/7972/shaohuo/trunk/Mobile/cmallcms2/cmallcms/ViperBase
+END
+Module.swift
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/dev/!svn/ver/7972/shaohuo/trunk/Mobile/cmallcms2/cmallcms/ViperBase/Module.swift
+END
+Presenter.swift
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/dev/!svn/ver/7972/shaohuo/trunk/Mobile/cmallcms2/cmallcms/ViperBase/Presenter.swift
+END
+ViperComponent.swift
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/dev/!svn/ver/7972/shaohuo/trunk/Mobile/cmallcms2/cmallcms/ViperBase/ViperComponent.swift
+END
+Interactor.swift
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/dev/!svn/ver/7972/shaohuo/trunk/Mobile/cmallcms2/cmallcms/ViperBase/Interactor.swift
+END
+ViperitError.swift
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/dev/!svn/ver/7972/shaohuo/trunk/Mobile/cmallcms2/cmallcms/ViperBase/ViperitError.swift
+END
+DisplayData.swift
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/dev/!svn/ver/7972/shaohuo/trunk/Mobile/cmallcms2/cmallcms/ViperBase/DisplayData.swift
+END
+UserInterface.swift
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/dev/!svn/ver/7972/shaohuo/trunk/Mobile/cmallcms2/cmallcms/ViperBase/UserInterface.swift
+END
+Router.swift
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/dev/!svn/ver/7972/shaohuo/trunk/Mobile/cmallcms2/cmallcms/ViperBase/Router.swift
+END

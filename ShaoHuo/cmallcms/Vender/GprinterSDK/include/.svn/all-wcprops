@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/dev/!svn/ver/8199/shaohuo/trunk/Mobile/cmallcms2/cmallcms/Vender/GprinterSDK/include
+END
+EscCommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/dev/!svn/ver/8199/shaohuo/trunk/Mobile/cmallcms2/cmallcms/Vender/GprinterSDK/include/EscCommand.h
+END
+IGThermalSupport.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/dev/!svn/ver/8199/shaohuo/trunk/Mobile/cmallcms2/cmallcms/Vender/GprinterSDK/include/IGThermalSupport.h
+END
+ReliableBurstData.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/dev/!svn/ver/8199/shaohuo/trunk/Mobile/cmallcms2/cmallcms/Vender/GprinterSDK/include/ReliableBurstData.h
+END
+DeviceInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/dev/!svn/ver/8199/shaohuo/trunk/Mobile/cmallcms2/cmallcms/Vender/GprinterSDK/include/DeviceInfo.h
+END
+BluetoothDeviceHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/dev/!svn/ver/8199/shaohuo/trunk/Mobile/cmallcms2/cmallcms/Vender/GprinterSDK/include/BluetoothDeviceHeader.h
+END
+IGThermalSupport.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/dev/!svn/ver/8199/shaohuo/trunk/Mobile/cmallcms2/cmallcms/Vender/GprinterSDK/include/IGThermalSupport.m
+END
+SerialGATT.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/dev/!svn/ver/8199/shaohuo/trunk/Mobile/cmallcms2/cmallcms/Vender/GprinterSDK/include/SerialGATT.h
+END
+MyPeripheral.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/dev/!svn/ver/8199/shaohuo/trunk/Mobile/cmallcms2/cmallcms/Vender/GprinterSDK/include/MyPeripheral.h
+END
+BLKWrite.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/dev/!svn/ver/8199/shaohuo/trunk/Mobile/cmallcms2/cmallcms/Vender/GprinterSDK/include/BLKWrite.h
+END
+CBController.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/dev/!svn/ver/8199/shaohuo/trunk/Mobile/cmallcms2/cmallcms/Vender/GprinterSDK/include/CBController.h
+END
+TscCommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/dev/!svn/ver/8199/shaohuo/trunk/Mobile/cmallcms2/cmallcms/Vender/GprinterSDK/include/TscCommand.h
+END
