@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RefundActionTableViewCell" id="KGk-i7-Jjw" customClass="RefundActionTableViewCell" customModule="cmallcms" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="119.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请在6天17小时25分钟16秒内处理本次退款，如逾期未处理，将自动同意退款" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ET-2S-4l3">
+                        <rect key="frame" x="14" y="20" width="292" height="61"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="61" id="yOg-Ll-Sxi"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.61176470588235299" green="0.61176470588235299" blue="0.61176470588235299" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OAd-9R-1gM" customClass="CMCActionButton" customModule="cmallcms" customModuleProvider="target">
+                        <rect key="frame" x="137" y="79.5" width="75" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="75" id="43G-zZ-vns"/>
+                            <constraint firstAttribute="height" constant="25" id="zaI-ql-82G"/>
+                        </constraints>
+                        <state key="normal" title="同意退款"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y8M-2z-x5T" customClass="CMCActionButton" customModule="cmallcms" customModuleProvider="target">
+                        <rect key="frame" x="226" y="79.5" width="75" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="75" id="Gu7-nr-orH"/>
+                            <constraint firstAttribute="height" constant="25" id="KAM-Q9-Mhu"/>
+                        </constraints>
+                        <state key="normal" title="拒绝退款"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Y8M-2z-x5T" secondAttribute="trailing" constant="19" id="58n-Ph-kto"/>
+                    <constraint firstAttribute="trailing" secondItem="2ET-2S-4l3" secondAttribute="trailing" constant="14" id="H2A-AW-5Cp"/>
+                    <constraint firstItem="2ET-2S-4l3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="Ra5-mO-3M9"/>
+                    <constraint firstAttribute="bottom" secondItem="OAd-9R-1gM" secondAttribute="bottom" constant="15" id="U10-go-ZVv"/>
+                    <constraint firstItem="2ET-2S-4l3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="14" id="gh1-0x-EbI"/>
+                    <constraint firstAttribute="bottom" secondItem="Y8M-2z-x5T" secondAttribute="bottom" constant="15" id="maJ-dW-CwG"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="OAd-9R-1gM" secondAttribute="trailing" constant="100" id="tJR-bb-8dy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="agreeButton" destination="OAd-9R-1gM" id="vqW-NF-QVz"/>
+                <outlet property="agreeButtonTrailingConstraint" destination="tJR-bb-8dy" id="cSd-dn-MFg"/>
+                <outlet property="refuseButton" destination="Y8M-2z-x5T" id="Lmh-JY-ly7"/>
+                <outlet property="tipLabel" destination="2ET-2S-4l3" id="eL8-Py-Xfn"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
