@@ -1,0 +1,35 @@
+//
+//  YFBPrefixHeader.pch
+//  YFBFriend
+//
+//  Created by Liang on 2017/2/13.
+//  Copyright © 2017年 Liang. All rights reserved.
+//
+
+#ifndef YFBPrefixHeader_pch
+#define YFBPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <objc/runtime.h>
+#import <Masonry.h>
+#import <Aspects.h>
+#import <BlocksKit.h>
+#import <BlocksKit+UIKit.h>
+#import <UIImageView+WebCache.h>
+#import <UIButton+WebCache.h>
+#import "JKDBModel.h"
+
+#import <QBNetworkingConfiguration.h>
+#import <QBNetworkInfo.h>
+#import <QBDefines.h>
+
+#import "YFBCommonDef.h"
+#import "YFBExtensions.h"
+#import "YFBConfig.h"
+#import "YFBConfiguration.h"
+#import "YFBUtil.h"
+#import "YFBUser.h"
+#import "YFBHudManager.h"
+
+#endif /* YFBPrefixHeader_pch */

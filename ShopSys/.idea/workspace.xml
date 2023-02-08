@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7d1bc9e7-3c6e-4872-9e93-6b7ec2d8bcd5" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="DONT_SYNCHRONIZE" />
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shopdb@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ShopSys" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="account_login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/account_login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uploadFile.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/uploadFile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="123" column="7" lean-forward="true" selection-start-line="123" selection-start-column="7" selection-end-line="123" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/upload.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="117" column="25" selection-start-line="117" selection-start-column="25" selection-end-line="117" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery-3.3.1.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jquery-3.3.1.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="1" column="1460" selection-start-line="1" selection-start-column="1460" selection-end-line="1" selection-end-column="1460" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="account_upload.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/account_upload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/db_config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dencrypt.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/dencrypt.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="account_register.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/account_register.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>echoErr</find>
+      <find>inputSubmit</find>
+      <find>destination</find>
+      <find>fileInfo</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/js</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/uploadx.css" />
+        <option value="$PROJECT_DIR$/js/location.js" />
+        <option value="$PROJECT_DIR$/pages/login.php" />
+        <option value="$PROJECT_DIR$/php/dencrypt.php" />
+        <option value="$PROJECT_DIR$/php/setcookie.php" />
+        <option value="$PROJECT_DIR$/getcookie.php" />
+        <option value="$PROJECT_DIR$/pages/upload.html" />
+        <option value="$PROJECT_DIR$/css/upload.css" />
+        <option value="$PROJECT_DIR$/css/login.css" />
+        <option value="1e15b198-2b8f-4307-a522-e426b1416893/schema/shopdb/table/user.sql" />
+        <option value="$PROJECT_DIR$/php/db_config.php" />
+        <option value="$PROJECT_DIR$/php/register.php" />
+        <option value="$PROJECT_DIR$/php/upload.php" />
+        <option value="$PROJECT_DIR$/php/login.php" />
+        <option value="$PROJECT_DIR$/pages/login.html" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/pages/register.html" />
+        <option value="$PROJECT_DIR$/php/account_login.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1e15b198-2b8f-4307-a522-e426b1416893/console.sql" />
+        <option value="$PROJECT_DIR$/js/upload.js" />
+        <option value="$PROJECT_DIR$/php/account_upload.php" />
+        <option value="$PROJECT_DIR$/php/uploadFile.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="PhpDebugGeneral" xdebug_debug_port="9001" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="127.0.0.1" id="b14495d5-bf22-4617-859f-601422a78c18" name="ServerLocalhost" />
+    </servers>
+  </component>
+  <component name="PhpWebServerValidation" deployment_server_id="07362ef8-fd67-4ec4-9486-306d454b23df" path_to_validation_script="$PROJECT_DIR$" selected_validation_type="REMOTE" web_path_to_validation_script="http://127.0.0.1:8080" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2" />
+  <component name="PhpXdebugProxy" ide_key="PHPSTORM" host="localhost" port="8080" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="967" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ShopSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShopSys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShopSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShopSys" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShopSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShopSys" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShopSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShopSys" type="462c0819:PsiDirectoryNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShopSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="ShopSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="ShopSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="ShopSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="1e15b198-2b8f-4307-a522-e426b1416893" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.splitter.proportion" value="0.25074625" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/php" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="account_upload.php" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="ServerLocalhost" start_url="/ShopSys/index.php" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d1bc9e7-3c6e-4872-9e93-6b7ec2d8bcd5" name="Default" comment="" />
+      <created>1532591916701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532591916701</updated>
+      <workItem from="1532591917795" duration="5000" />
+      <workItem from="1532591942640" duration="5356000" />
+      <workItem from="1532654025928" duration="39690000" />
+      <workItem from="1532939200317" duration="33916000" />
+      <workItem from="1533105232997" duration="178000" />
+      <workItem from="1533105651277" duration="30068000" />
+      <workItem from="1533284651686" duration="3799000" />
+      <workItem from="1533344836736" duration="535000" />
+      <workItem from="1533517891068" duration="10269000" />
+      <workItem from="1533538691382" duration="798000" />
+      <workItem from="1533539524940" duration="5093000" />
+      <workItem from="1533548283710" duration="2000" />
+      <workItem from="1533548416725" duration="6737000" />
+      <workItem from="1533690440124" duration="1168000" />
+      <workItem from="1533776973787" duration="15477000" />
+      <workItem from="1533864649767" duration="1920000" />
+      <workItem from="1534139852121" duration="2664000" />
+      <workItem from="1534728596676" duration="6690000" />
+      <workItem from="1535073716196" duration="1744000" />
+      <workItem from="1535441198263" duration="1503000" />
+      <workItem from="1536636026099" duration="336000" />
+      <workItem from="1541054022279" duration="417000" />
+      <workItem from="1547430614333" duration="703000" />
+      <workItem from="1547431926639" duration="151000" />
+      <workItem from="1547433388827" duration="1950000" />
+      <workItem from="1547436011330" duration="472000" />
+      <workItem from="1547438321317" duration="247000" />
+      <workItem from="1547438844908" duration="508000" />
+      <workItem from="1547450187852" duration="737000" />
+      <workItem from="1547459665228" duration="1488000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="174621000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="967" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4969697" visible="true" weight="0.17412141" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49925816" weight="0.3289183" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="13" sideWeight="0.371672" side_tool="true" visible="true" weight="0.24712643" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.12140575" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.628328" weight="0.24712643" />
+      <window_info id="Structure" order="1" sideWeight="0.5030303" side_tool="true" weight="0.20771514" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32924107" />
+      <window_info id="Favorites" order="2" sideWeight="0.5030303" side_tool="true" weight="0.20771514" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6517572" weight="0.44712645" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="SQL Generator" order="14" show_stripe_button="false" weight="0.3295063" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3298122" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="12" sideWeight="0.49917987" weight="0.3156733" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.3158482" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="SQL Generator" order="14" show_stripe_button="false" weight="0.3295063" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20245399" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295063" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6311953" weight="0.24776785" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3298122" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.6588679" visible="true" weight="0.25669643" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32924107" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.36880466" side_tool="true" weight="0.2578125" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.20398773" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="31" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/php/db_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="7" selection-end-line="49" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/upload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="53" lean-forward="true" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/upload.css" />
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/session/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="389" column="9" selection-start-line="389" selection-start-column="9" selection-end-line="389" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/rdfa.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="251" column="16" selection-start-line="251" selection-start-column="16" selection-end-line="251" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1e15b198-2b8f-4307-a522-e426b1416893/schema/shopdb/table/test" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/meta.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="176" column="22" selection-start-line="176" selection-start-column="22" selection-end-line="176" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/upload.css" />
+    <entry file="file://$PROJECT_DIR$/php/setcookie.php" />
+    <entry file="file://$PROJECT_DIR$/getcookie.php" />
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="459" column="21" selection-start-line="459" selection-start-column="14" selection-end-line="459" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="4603" column="69" lean-forward="true" selection-start-line="4603" selection-start-column="69" selection-end-line="4603" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/web-forms2.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/_types.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/upload.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1e15b198-2b8f-4307-a522-e426b1416893/schema/shopdb/table/user.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1e15b198-2b8f-4307-a522-e426b1416893/console_1.sql" />
+    <entry file="file://$PROJECT_DIR$/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/login.php" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/mysqli/mysqli.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="1756" column="28" selection-start-line="1756" selection-start-column="9" selection-end-line="1756" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/superglobals/_superglobals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2618">
+          <caret line="173" selection-start-line="173" selection-end-line="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/account_logout.php" />
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es6.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="7938" column="13" selection-start-line="7938" selection-start-column="13" selection-end-line="7938" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///etc/php.ini" />
+    <entry file="file://$PROJECT_DIR$/pages/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="806" column="37" lean-forward="true" selection-start-line="806" selection-start-column="37" selection-end-line="806" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_0.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="776" column="9" selection-start-line="776" selection-start-column="9" selection-end-line="776" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="856" column="9" selection-start-line="856" selection-start-column="9" selection-end-line="856" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_8.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="1011" column="13" lean-forward="true" selection-start-line="1011" selection-start-column="13" selection-end-line="1011" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="996" column="9" selection-start-line="996" selection-start-column="9" selection-end-line="996" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="923" column="33" selection-start-line="923" selection-start-column="33" selection-end-line="923" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1e15b198-2b8f-4307-a522-e426b1416893/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/date/date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="259" column="20" lean-forward="true" selection-start-line="259" selection-start-column="20" selection-end-line="259" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1e15b198-2b8f-4307-a522-e426b1416893/schema/shopdb/table/user_info">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/etc/php/7.2/php.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1e15b198-2b8f-4307-a522-e426b1416893/schema/shopdb/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/account_register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/account_login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/upload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="117" column="25" selection-start-line="117" selection-start-column="25" selection-end-line="117" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-3.3.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="1" column="1460" selection-start-line="1" selection-start-column="1460" selection-end-line="1" selection-end-column="1460" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/account_upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/db_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/dencrypt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/uploadFile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="123" column="7" lean-forward="true" selection-start-line="123" selection-start-column="7" selection-end-line="123" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

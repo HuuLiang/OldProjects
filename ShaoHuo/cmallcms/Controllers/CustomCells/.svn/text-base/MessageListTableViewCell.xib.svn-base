@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MessageListTableViewCell" id="KGk-i7-Jjw" customClass="MessageListTableViewCell" customModule="cmallcms" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_push_msg" translatesAutoresizingMaskIntoConstraints="NO" id="HeF-aK-dmR">
+                        <rect key="frame" x="14" y="10" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="c7W-GT-P8L"/>
+                            <constraint firstAttribute="height" constant="40" id="c8O-p0-gTF"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="751" verticalHuggingPriority="251" text="订单通知" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0pW-eD-SfY">
+                        <rect key="frame" x="64" y="10" width="61.5" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="L0c-ov-OsA"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VKU-NC-9Bd">
+                        <rect key="frame" x="141.5" y="8" width="164.5" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="k7n-Td-1Gg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.61176470588235299" green="0.61176470588235299" blue="0.61176470588235299" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ck0-tc-VHk">
+                        <rect key="frame" x="64" y="35" width="242" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.39215686274509803" green="0.39215686274509803" blue="0.39215686274509803" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_push_msg_new" translatesAutoresizingMaskIntoConstraints="NO" id="pt3-0e-Cmh">
+                        <rect key="frame" x="47" y="7" width="10" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="1NY-Iu-emL"/>
+                            <constraint firstAttribute="width" constant="10" id="Hoh-qg-YxV"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="VKU-NC-9Bd" firstAttribute="leading" secondItem="0pW-eD-SfY" secondAttribute="trailing" constant="16" id="1hv-UZ-ah0"/>
+                    <constraint firstItem="pt3-0e-Cmh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="8uK-0n-T2V"/>
+                    <constraint firstItem="0pW-eD-SfY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="9mb-Di-fkJ"/>
+                    <constraint firstItem="VKU-NC-9Bd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="LIR-Tc-raY"/>
+                    <constraint firstItem="HeF-aK-dmR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Mdi-Cj-qyL"/>
+                    <constraint firstItem="0pW-eD-SfY" firstAttribute="leading" secondItem="HeF-aK-dmR" secondAttribute="trailing" constant="10" id="OB5-VA-Gsl"/>
+                    <constraint firstAttribute="trailing" secondItem="Ck0-tc-VHk" secondAttribute="trailing" constant="14" id="PFJ-oj-Voa"/>
+                    <constraint firstAttribute="bottom" secondItem="Ck0-tc-VHk" secondAttribute="bottom" constant="9.5" id="TFm-4i-oqQ"/>
+                    <constraint firstItem="pt3-0e-Cmh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="47" id="UHf-3R-s44"/>
+                    <constraint firstItem="HeF-aK-dmR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="14" id="a6u-fd-ol4"/>
+                    <constraint firstItem="Ck0-tc-VHk" firstAttribute="top" secondItem="0pW-eD-SfY" secondAttribute="bottom" constant="9" id="b1W-69-NKN"/>
+                    <constraint firstAttribute="trailing" secondItem="VKU-NC-9Bd" secondAttribute="trailing" constant="14" id="hJU-Dd-z72"/>
+                    <constraint firstItem="Ck0-tc-VHk" firstAttribute="leading" secondItem="HeF-aK-dmR" secondAttribute="trailing" constant="10" id="vR8-zt-BG8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="msgContentLabel" destination="Ck0-tc-VHk" id="wSB-ND-KFg"/>
+                <outlet property="msgTimeLabel" destination="VKU-NC-9Bd" id="hX6-hq-k99"/>
+                <outlet property="msgTypeImageView" destination="HeF-aK-dmR" id="XXJ-dg-GCF"/>
+                <outlet property="msgTypeLabel" destination="0pW-eD-SfY" id="D9l-ze-siF"/>
+                <outlet property="newMsgImageView" destination="pt3-0e-Cmh" id="Uh5-VM-mVe"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_push_msg" width="40" height="40"/>
+        <image name="icon_push_msg_new" width="10" height="10"/>
+    </resources>
+</document>

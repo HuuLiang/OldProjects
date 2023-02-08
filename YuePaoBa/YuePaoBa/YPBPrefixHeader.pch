@@ -1,0 +1,38 @@
+//
+//  YPBPrefixHeader.pch
+//  YuePaoBa
+//
+//  Created by Sean Yue on 15/12/2.
+//  Copyright © 2015年 iqu8. All rights reserved.
+//
+
+#ifndef YPBPrefixHeader_pch
+#define YPBPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <objc/runtime.h>
+#import <Aspects.h>
+#import <Masonry.h>
+#import <BlocksKit.h>
+#import <BlocksKit+UIKit.h>
+#import <UIImageView+WebCache.h>
+#import <UIButton+WebCache.h>
+#import <UIImage+ImageWithColor.h>
+#import <MJRefresh.h>
+#import "YPBConfig.h"
+#import "YPBCommonDef.h"
+#import "YPBStringDef.h"
+#import "YPBErrorDef.h"
+#import "YPBStatistics.h"
+#import "YPBExtensions.h"
+#import "YPBUtil.h"
+#import "YPBMessageCenter.h"
+#import "YPBUser.h"
+#import "YPBUploadManager.h"
+#import "YPBPaymentManager.h"
+#import "YPBSystemConfigModel.h"
+#import "YPBAutoReplyWords.h"
+
+#endif /* YPBPrefixHeader_pch */

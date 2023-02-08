@@ -1,0 +1,37 @@
+//
+//  PLPrefixHeader.pch
+//  PhotoLibrary
+//
+//  Created by Sean Yue on 15/12/1.
+//  Copyright © 2015年 iqu8. All rights reserved.
+//
+
+#ifndef PLPrefixHeader_pch
+#define PLPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <Aspects.h>
+#import <Masonry.h>
+#import <BlocksKit.h>
+#import <BlocksKit+UIKit.h>
+#import <UIButton+WebCache.h>
+#import <UIImageView+WebCache.h>
+#import <UIImage+ImageWithColor.h>
+#import "PLCommonDef.h"
+#import "NSObject+Properties.h"
+#import "PLExtensions.h"
+#import "PLConfig.h"
+#import "PLUtil.h"
+#import "PLPaymentUtil.h"
+#import "PLHudManager.h"
+#import "PLErrorHandler.h"
+#import "PLStatistics.h"
+#import "PLPaymentManager.h"
+#import "PLApplePay.h"
+#import <RESideMenu.h>
+
+//－－－－－－－－－－－－－－－－－－－－－－－－－
+#endif /* PLPrefixHeader_pch */
