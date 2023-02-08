@@ -1,0 +1,40 @@
+//
+//  JFPrefixHeader.pch
+//  JFVideo
+//
+//  Created by Liang on 16/6/20.
+//  Copyright © 2016年 iqu8. All rights reserved.
+//
+
+#ifndef JFPrefixHeader_pch
+#define JFPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <objc/runtime.h>
+#import <Aspects.h>
+#import <Masonry.h>
+#import <BlocksKit.h>
+#import <BlocksKit+UIKit.h>
+#import <UIImageView+WebCache.h>
+#import <UIButton+WebCache.h>
+#import <QBOrderInfo.h>
+#import "JFCommonDef.h"
+#import "JFConfig.h"
+#import "JFExtensions.h"
+#import "JFErrorHandler.h"
+#import "JFMessageCenter.h"
+#import "CRKHudManager.h"
+#import "JFUtil.h"
+#import "DBHandler.h"
+#import "JFBaseModel.h"
+#import "JFStatsManager.h"
+//#import "JFVideoTokenManager.h"
+#import "JFSystemConfigModel.h"
+
+#import <QBNetworking/QBNetworkInfo.h>
+//#import <QBPayment/QBPaymentDefines.h>
+#import <QBExtensions/QBDefines.h>
+#import <QBPaymentManager.h>
+
+#endif /* JFPrefixHeader_pch */

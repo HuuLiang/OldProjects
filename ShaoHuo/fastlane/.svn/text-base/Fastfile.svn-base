@@ -1,0 +1,133 @@
+# Customise this file, documentation can be found here:
+# https://github.com/fastlane/fastlane/tree/master/fastlane/docs
+# All available actions: https://docs.fastlane.tools/actions
+# can also be listed using the `fastlane actions` command
+
+# Change the syntax highlighting to Ruby
+# All lines starting with a # are ignored when running `fastlane`
+
+# If you want to automatically update fastlane if a new version is available:
+# update_fastlane
+
+# This is the minimum version number required.
+# Update this, if you use features of a newer version
+fastlane_version "2.30.2"
+
+default_platform :ios
+
+platform :ios do
+  before_all do
+    # ENV["SLACK_URL"] = "https://hooks.slack.com/services/..."
+    cocoapods
+    
+  end
+
+  desc "Runs all the tests"
+  lane :test do
+    scan
+  end
+
+  desc "Submit a new Beta Build to Apple TestFlight"
+  desc "This will also make sure the profile is up to date"
+  lane :beta do
+    # match(type: "appstore") # more information: https://codesigning.guide
+    gym(scheme: "cmallcms") # Build your app - more options available
+    pilot
+
+    # sh "your_script.sh"
+    # You can also use other beta testing services here (run `fastlane actions`)
+  end
+
+  desc "Deploy a new version to the App Store"
+  lane :release do
+    # match(type: "appstore")
+    # snapshot
+    gym(scheme: "cmallcms") # Build your app - more options available
+    deliver(force: true)
+    # frameit
+  end
+
+  desc "Deploy a new version to the App Store "
+  lane :pgy_res do 
+      time = Time.new()
+      app_display_name = "捎货商家版"
+      app_name = "#{app_display_name}_#{time.month}_#{time.day}_#{time.hour}"
+    
+      update_info_plist( # Change the Display Name of your app
+        plist_path: "cmallcms/Info.plist",
+        display_name: app_display_name
+      )
+      gym(
+          configuration: "Adhoc",
+          scheme: "cmallcms",
+          clean: "true",
+          output_directory: "/Users/vicoo/Documents/ipa/",
+          output_name: "#{app_name}.ipa",
+          export_method: "ad-hoc",
+          archive_path: "/Users/vicoo/Documents/ipa/#{app_name}.xcarchive"
+        ) 
+
+      #上传到pgy
+      pgyer(api_key: "b45bc9967dbb9a580568c0fd6cc87306", user_key: "9e70a0593ed718d3b720a74b2c953087")
+  end
+
+  desc "adhoc build to pgy"
+  desc "This will also make sure the profile is up to date"
+  lane :pgy do |options|
+      #先清空前一次build --clean 
+      #--configuration "Adhoc" 
+      #--archive_path "/Users/vicoo/Documents/ipa/shaohuo.xcarchive" 
+      #--export_method 'ad-hoc' 
+      #--output_directory "/Users/vicoo/Documents/ipa/" 
+      #--output_name "shaohuo.ipa"
+
+      time = Time.new()
+      app_display_name = options[:dev] ? "捎货商家版_Beta" : "捎货商家版_pre"
+      app_name = "#{app_display_name}_#{time.month}_#{time.day}_#{time.hour}"
+    
+      update_info_plist( # Change the Display Name of your app
+        plist_path: "cmallcms/Info.plist",
+        display_name: app_display_name
+      )
+      gym(
+          configuration: "Adhoc",
+          scheme: "cmallcms",
+          clean: "true",
+          output_directory: "/Users/vicoo/Documents/ipa/",
+          output_name: "#{app_name}.ipa",
+          export_method: "ad-hoc",
+          archive_path: "/Users/vicoo/Documents/ipa/#{app_name}.xcarchive"
+        ) 
+
+      #上传到pgy
+      pgyer(api_key: "b45bc9967dbb9a580568c0fd6cc87306", user_key: "9e70a0593ed718d3b720a74b2c953087")
+  end
+  # You can define as many lanes as you want
+
+  after_all do |lane|
+    # This block is called, only if the executed lane was successful
+
+    # slack(
+    #   message: "Successfully deployed new App Update."
+    # )
+
+    update_info_plist( # Change the Display Name of your app
+        plist_path: "cmallcms/Info.plist",
+        display_name: "捎货商家版"
+    )
+  end
+
+  error do |lane, exception|
+    # slack(
+    #   message: exception.message,
+    #   success: false
+    # )
+  end
+end
+
+
+# More information about multiple platforms in fastlane: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Platforms.md
+# All available actions: https://docs.fastlane.tools/actions
+
+# fastlane reports which actions are used. No personal data is recorded. 
+# Learn more at https://github.com/fastlane/fastlane#metrics

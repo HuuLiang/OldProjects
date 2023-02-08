@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册界面</title>
+    <link rel="shortcut icon" href="#"/>
+    <script type="text/javascript" language="JavaScript" src="../js/jquery-3.3.1.min.js"></script>
+    <style>
+        body {
+            background-color: yellowgreen;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #register {
+            text-align: center;
+        }
+
+        #labels {
+            display: inline-block;
+            text-align: right;
+        }
+
+        label {
+            display: block;
+            margin-top: 8px;
+        }
+
+        #inputs {
+            display: inline-block;
+        }
+
+        input {
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<script>
+    $(document).ready(function () {
+        $("#registerBtn").click(function (e) {
+            var name = document.getElementById("name").value;
+            var passd = document.getElementById("password").value;
+            var passdC = document.getElementById("passwordConfirm").value;
+            if (passd != passdC) {
+                alert("密码不一致，请重新输入!");
+                document.location.reload();
+                e.preventDefault();
+            }
+            var fd = new FormData();
+            fd.append("name", name);
+            fd.append("password", passd);
+            $.ajax({
+                url: "../php/account_register.php",
+                type: "POST",
+                processData: false,
+                contentType: false,
+                data: fd,
+                success: function (response) {
+                    var jsonObj=JSON.parse(response);
+                    alert(jsonObj.msg);
+                    if (jsonObj.code == 200) {
+                        returnToLogin();
+                    } else if (jsonObj.code == 0) {
+                        document.location.reload();
+                    }
+                }
+            });
+
+        });
+        $("#returnLogin").click(function () {
+            returnToLogin();
+        });
+
+        function returnToLogin() {
+            window.location.href='./login.html';
+        }
+    });
+</script>
+<div id="title">
+    <h1>注册</h1>
+</div>
+<div id="register">
+    <form action="" method="post" autocomplete="off">
+        <div id="labels">
+            <label for="name">用户名:</label>
+            <label for="password">密码:</label>
+            <label for="passwordConfirm">确认密码:</label>
+        </div>
+        <div id="inputs">
+            <input type="text" id="name" autocomplete="off" required/><br/>
+            <input type="password" id="password" autocomplete="off" required/><br/>
+            <input type="password" id="passwordConfirm" autocomplete="off" required/><br/>
+        </div>
+        <br/>
+        <input type="button" id="returnLogin" value="返回登录">
+        <input type="button" id="registerBtn" value="注册">
+    </form>
+</div>
+
+<h2 id="log"></h2>
+</body>
+</html>

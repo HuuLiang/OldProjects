@@ -1,0 +1,57 @@
+body {
+    background-color: aquamarine;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center
+}
+
+form {
+    text-align: center
+}
+
+#labels {
+    display: inline-block;
+    /*background-color: red;*/
+}
+
+label {
+    display: block;
+    text-align: right;
+    margin-top: 1.1px;
+}
+
+#inputs {
+    position: relative;
+    display: inline-block;
+    margin: 0px 0px 0px 10px;
+}
+
+.block {
+    /*position: absolute;*/
+    /*left: 0px;*/
+    text-align: left;
+    display: block;
+}
+
+
+/*input[type="text"] {*/
+/*display: block;*/
+/*min-width: 5cm;*/
+/*}*/
+
+#inputSubmit {
+    text-align: center
+}
+
+button[id="logoutBtn"] {
+    background-color: red;
+    color: greenyellow
+}
+
+/**/
+#imgs {
+    text-align: center
+}
