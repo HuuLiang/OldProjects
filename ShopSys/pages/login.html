@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shop Info Collection System</title>
+    <script type="text/javascript" language="JavaScript" src="../js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="shortcut icon" href="#"/>
+</head>
+
+<body>
+<script>
+    $(document).ready(function () {
+        $("#registerBtn").click(function () {
+            window.location.href = './register.html';
+        });
+
+        $("#loginBtn").click(function (e) {
+            var fd = new FormData();
+            fd.append("type","login");
+            fd.append("name", $("#account_name").val());
+            fd.append("password",$("#account_password").val());
+            $.ajax({
+                url: "../php/account_login.php",
+                type: "POST",
+                processData: false,
+                contentType: false,
+                data: fd,
+                success: function (response) {
+                    var jsonObj=JSON.parse(response);
+                    alert(jsonObj.msg);
+                    if (jsonObj.code == 200) {
+                        document.location.href='upload.html';
+                    } else if (jsonObj.code == 0) {
+                        // alert(jsonObj.msg);
+                        document.location.reload();
+                    }
+                }
+            });
+        });
+
+    });
+</script>
+<div id="title">
+    <h1>门店信息采集系统</h1>
+</div>
+<div id="login">
+    <form action="" method="post" id="loginform" autocomplete="off">
+        <div id="labels">
+            <label for="account_name">用户名:</label>
+            <label for="account_password">密码:</label>
+        </div>
+        <div id="inputs">
+            <input type="text" id="account_name" autocomplete="off" required/><br/>
+            <input type="password" id="account_password" autocomplete="off" required/><br/>
+        </div>
+        <div id="action">
+            <input type="button" id="loginBtn" value="登录">
+            <input type="button" id="registerBtn" value="注册">
+        </div>
+    </form>
+</div>
+
+<h2 id="log"></h2>
+</body>
+
+</html>

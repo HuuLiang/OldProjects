@@ -1,0 +1,110 @@
+//
+//  STPrefixHeader.pch
+//  ShowTime
+//
+//  Created by Sean Yue on 16/1/25.
+//  Copyright © 2016年 iqu8. All rights reserved.
+//
+
+#ifndef STPrefixHeader_pch
+#define STPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <objc/runtime.h>
+
+#import <Aspects.h>
+#import <BlocksKit+UIKit.h>
+#import <Masonry.h>
+#import <UIImageView+WebCache.h>
+#import "RACEXTScope.h"
+#import "STExtensions.h"
+#import "STConfig.h"
+#import "STHudManager.h"
+#import "STErrorHandler.h"
+#import "STUtil.h"
+
+#import "STProgram.h"
+#import "STChannel.h"
+#import "DBHandler.h"
+#import "STStatsManager.h"
+#import "STNetworkInfo.h"
+
+
+
+typedef NS_ENUM(NSUInteger, STDeviceTypes) {
+    STDeviceTypeUnknown,
+    STDeviceType_iPhone4,
+    STDeviceType_iPhone4S,
+    STDeviceType_iPhone5,
+    STDeviceType_iPhone5C,
+    STDeviceType_iPhone5S,
+    STDeviceType_iPhone6,
+    STDeviceType_iPhone6P,
+    STDeviceType_iPhone6S,
+    STDeviceType_iPhone6SP,
+    STDeviceType_iPhoneSE,
+    STDeviceType_iPad = 100
+};
+
+typedef NS_ENUM(NSUInteger, STPaymentType) {
+    STPaymentTypeNone,
+    STPaymentTypeAlipay = 1001,
+    STPaymentTypeWeChatPay = 1008,
+    STPaymentTypeIAppPay = 1009,
+    STPaymentTypeVIAPay = 1010, //首游时空
+    STPaymentTypeSPay = 1012, //威富通
+    STPaymentTypeHTPay = 1015 //海豚支付
+};
+
+typedef NS_ENUM(NSUInteger, STSubPayType) {
+    STSubPayTypeNone = 0,
+    STSubPayTypeWeChat = 1 << 0,
+    STSubPayTypeAlipay = 1 << 1,
+    STSubPayUPPay = 1 << 2,
+    STSubPayTypeQQ = 1 << 3
+};
+
+typedef NS_ENUM(NSInteger, PAYRESULT)
+{
+    PAYRESULT_SUCCESS   = 0,
+    PAYRESULT_FAIL      = 1,
+    PAYRESULT_ABANDON   = 2,
+    PAYRESULT_UNKNOWN   = 3
+};
+
+#define DefineLazyPropertyInitialization(propertyType, propertyName) \
+-(propertyType *)propertyName { \
+if (_##propertyName) { \
+return _##propertyName; \
+} \
+_##propertyName = [[propertyType alloc] init]; \
+return _##propertyName; \
+}
+#define SafelyCallBlock(block,...) \
+if (block) block(__VA_ARGS__);
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+// DLog
+#ifdef  DEBUG
+#define DLog(fmt,...) {NSLog((@"%s [Line:%d]" fmt),__PRETTY_FUNCTION__,__LINE__,##__VA_ARGS__);}
+#else
+#define DLog(...)
+#endif
+
+#define kPaidNotificationName @"SHOWTIME_PAID_NOTIFICATION"
+#define kDefaultDateFormat    @"yyyyMMddHHmmss"
+
+typedef void (^STCompletionHandler)(BOOL success, id obj);
+typedef void (^STPaymentsCompletionHandler)(PAYRESULT payResult, STPaymentInfo *paymentInfo);
+
+typedef void (^STAction)(id obj);
+#define kExExSmallFont [UIFont systemFontOfSize:MIN(10, kScreenWidth*0.03)]
+#define kBoldMediumFont [UIFont boldSystemFontOfSize:MIN(16, kScreenWidth*0.045)]
+
+
+#endif /* STPrefixHeader_pch */
