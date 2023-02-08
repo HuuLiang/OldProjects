@@ -1,0 +1,122 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - ClusterPrePermissions (0.8.1)
+  - DateToolsSwift (2.0.3)
+  - DTCoreText (1.6.20):
+    - DTCoreText/Core (= 1.6.20)
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTCoreText/Core (1.6.20):
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTFoundation/Core (1.7.12)
+  - DTFoundation/DTAnimatedGIF (1.7.12)
+  - DTFoundation/DTHTMLParser (1.7.12):
+    - DTFoundation/Core
+  - DTFoundation/UIKit (1.7.12):
+    - DTFoundation/Core
+  - DZNEmptyDataSet (1.8.1)
+  - EFQRCode (1.2.5)
+  - ESTabBarController-swift (2.4)
+  - EZSwiftExtensions (1.9)
+  - IGListKit (3.0.0):
+    - IGListKit/Default (= 3.0.0)
+  - IGListKit/Default (3.0.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (3.0.0)
+  - IQKeyboardManager (4.0.9)
+  - JDStatusBarNotification (1.5.5)
+  - JSQWebViewController (5.0.0)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - ObjectMapper (2.2.6)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SKPhotoBrowser (4.0.1)
+  - SVProgressHUD (2.1.2)
+  - TYAttributedLabel (2.6.2)
+  - UMengAnalytics-NO-IDFA (4.2.5)
+  - WebViewJavascriptBridge (5.0.9)
+  - XCGLogger (5.0.1):
+    - XCGLogger/Core (= 5.0.1)
+  - XCGLogger/Core (5.0.1):
+    - ObjcExceptionBridging
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - ClusterPrePermissions (~> 0.1)
+  - DateToolsSwift
+  - DTCoreText (~> 1.6.20)
+  - DZNEmptyDataSet
+  - EFQRCode (~> 1.2.5)
+  - ESTabBarController-swift
+  - EZSwiftExtensions
+  - IGListKit (~> 3.0)
+  - IQKeyboardManager (~> 4.0.6)
+  - JDStatusBarNotification (~> 1.5.3)
+  - JSQWebViewController
+  - Masonry
+  - MBProgressHUD (~> 1.0.0)
+  - MJRefresh
+  - ObjectMapper (~> 2.2)
+  - SDWebImage (~> 3.8.2)
+  - SKPhotoBrowser
+  - SVProgressHUD
+  - TYAttributedLabel (~> 2.6.2)
+  - UMengAnalytics-NO-IDFA
+  - WebViewJavascriptBridge (~> 5.0.5)
+  - XCGLogger (~> 5.0.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  ClusterPrePermissions: 168c127a658e423062550dd9c56fe26042a58bce
+  DateToolsSwift: bf69bf9056d9e53c5c03f06e51f219b9b8b02f9e
+  DTCoreText: 51904f2374af443e0d270d6fdc76035ab6f9ef8a
+  DTFoundation: 26a164ef510877387906fb92bff524a792db4bf8
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  EFQRCode: 96834a369f74d14b8be882cfe6f27f00cd4cad18
+  ESTabBarController-swift: af496895039ba10ae60bf825473c45f23fc5c8b6
+  EZSwiftExtensions: ce22bf6fc5c6e7c883fec413300b006e123735d0
+  IGListKit: 9eab6856a15fa25ad72018ff9d9eb2178c240fff
+  IQKeyboardManager: 322c7405df3eb5f7e50dede32ea937bf3d4364e0
+  JDStatusBarNotification: 2b4f29bd68a60d7aa2f190b5265f1ce59c18aaf8
+  JSQWebViewController: 0461aa42612b221571556df61d9c09f080cb2eef
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  ObjectMapper: '042708195cc46c20871cbcbec0453826398273fd'
+  SDWebImage: '098e97e6176540799c27e804c96653ee0833d13c'
+  SKPhotoBrowser: 3a7c6fc02aa1620ab17253a47a49fafda46536e8
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  TYAttributedLabel: 1c1f1e7604043ba584e005d4fd3aee8a1a7a2020
+  UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
+  WebViewJavascriptBridge: a4390df79bf622fc068dd035c8b5f67590c0ba05
+  XCGLogger: 0b43697155d41e4a1b15fc776f319c2141646b09
+
+PODFILE CHECKSUM: 753a2fc16e12faad3e818620304ae0609254568b
+
+COCOAPODS: 1.2.0

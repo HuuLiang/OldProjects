@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>keywords</key>
+	<array>
+		<string>qq</string>
+		<string>Q</string>
+		<string>QQ</string>
+		<string>q</string>
+		<string>微信</string>
+		<string>微</string>
+		<string>weixin</string>
+		<string>wx</string>
+		<string>加 v</string>
+		<string>扣扣</string>
+		<string>加</string>
+		<string>电话</string>
+		<string>加我</string>
+	</array>
+	<key>replyMsg</key>
+	<array>
+		<string>你说加私信聊啊？前两天被一个变态骗了，咱们还是先在这聊好说清楚，再深入发展，你看怎么样？</string>
+		<string>哟哟哟，这么直接就勾搭小姐姐，不怕做坏事被女朋友发现啊?</string>
+		<string>你微信或者qq是主号吗？有没有小号？怕万一你有老婆什么的，我就说不清清楚啦！</string>
+		<string>我这么美也是不是谁都加的，说说你的优点吧，至少先认识下吧，你说呢？</string>
+		<string>嗯。。。。那你先发张你真人照片给我看看呀，或者直接视频吧。</string>
+		<string>我资料里写了联系方式啦，你自己看，加的时候记得备注下你昵称。</string>
+		<string>有什么话这里不方便说呀？你哄哄我，哄开心了就加呗。、</string>
+		<string>不高兴~~~跟你都不熟，话都没说两句就私聊，换你是女生你高兴吗？</string>
+		<string>嘻嘻，你想干什么呀，想约就直说咯？还加私心，干嘛？见不得人吗？</string>
+		<string>嗯哼，叫声好听的，我满意了就加咯</string>
+		<string>为什么呀加呢，给个理由呗。</string>
+		<string>真加啊？那你给我送给礼物呗。不然我觉得自己倒贴一样</string>
+		<string>你送我个礼物表下真心？就“蛋糕”好了，我就跟你互换联系方式吧</string>
+		<string>不方便拉，微信qq什么的总是被查岗。。。。被人看到不好，毕竟生活中我还是个正经女孩</string>
+		<string>你说加微信聊啊？前两天被一个变态骗了，咱们还是先在这聊好说清楚，再深入发展，你看怎么样？</string>
+	</array>
+</dict>
+</plist>
