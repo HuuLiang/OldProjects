@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shop Info Collection System</title>
+    <link rel="shortcut icon" href="#"/>
+    <link rel="stylesheet" href="../css/upload.css">
+    <script type="text/javascript" language="JavaScript" src="../js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" language="JavaScript" src="../js/upload.js"></script>
+</head>
+
+<body>
+<h1>信息</h1>
+<div>
+    <form action="" method="post" id="infoForm" autocomplete="on">
+        <div id="labels">
+            <label for="name">姓名:</label>
+            <label for="tel">联系方式:</label>
+            <label for="cardid">身份证:</label>
+            <label for="wx">微信:</label>
+            <label for="shopid">店铺编号:</label>
+            <label for="location">位置:</label>
+            <label for="files">上传店铺照片:</label>
+        </div>
+
+        <div id="inputs">
+            <div class="block"><input type="text" id="name" value="" required/></div>
+            <div class="block"><input type="text" id="tel" value="" required/></div>
+            <div class="block"><input type="text" id="cardid" value="" minlength="18" max="18" required/></div>
+            <div class="block"><input type="text" id="wx" value="" required/></div>
+            <div class="block"><input type="text" id="shopid" value="" required/></div>
+            <div class="block">
+                <input type="text" id="location" required/>
+                <button type="button" id="locationBtn" onclick="startLocation()">获取定位</button>
+            </div>
+            <div class="block"><input type="file" accept="image/*" id="files" multiple required/></div>
+        </div>
+
+
+        <div id="inputSubmit">
+            <input type="submit" id="formSubmit" value="提交">
+            <button type="button" id="logoutBtn">退出</button>
+        </div>
+    </form>
+</div>
+
+<div id="imgs"></div>
+
+</body>
+</html>
