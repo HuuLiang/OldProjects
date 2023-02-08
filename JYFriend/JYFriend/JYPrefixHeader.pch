@@ -1,0 +1,37 @@
+//
+//  JYPrefixHeader.pch
+//  JYFriend
+//
+//  Created by Liang on 2016/11/28.
+//  Copyright © 2016年 Liang. All rights reserved.
+//
+
+#ifndef JYPrefixHeader_pch
+#define JYPrefixHeader_pch
+
+#import <objc/runtime.h>
+#import <Masonry.h>
+#import <Aspects.h>
+#import <BlocksKit.h>
+#import <BlocksKit+UIKit.h>
+#import <UIImageView+WebCache.h>
+#import <UIButton+WebCache.h>
+
+#import <QBNetworkingConfiguration.h>
+#import <QBNetworkInfo.h>
+#import <QBPaymentDefines.h>
+#import <QBDefines.h>
+#import <QBStatsManager.h>
+
+#import "JYCommonDef.h"
+#import "JYExtensions.h"
+#import "JYConfig.h"
+#import "JYConfiguration.h"
+#import "JYUtil.h"
+#import "JYUser.h"
+//#import "PPCacheModel.h"
+#import "JYHudManager.h"
+#import "JYVoicePlayer.h"
+//#import "PPColumnModel.h"
+
+#endif /* JYPrefixHeader_pch */

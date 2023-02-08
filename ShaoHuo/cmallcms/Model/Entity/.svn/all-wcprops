@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/dev/!svn/ver/8312/shaohuo/trunk/Mobile/cmallcms2/cmallcms/Model/Entity
+END
+OrderListEntity.swift
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/dev/!svn/ver/8205/shaohuo/trunk/Mobile/cmallcms2/cmallcms/Model/Entity/OrderListEntity.swift
+END
+ModelEnityTransform.swift
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/dev/!svn/ver/7972/shaohuo/trunk/Mobile/cmallcms2/cmallcms/Model/Entity/ModelEnityTransform.swift
+END
+CMCStaticCellEntity.swift
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/dev/!svn/ver/7972/shaohuo/trunk/Mobile/cmallcms2/cmallcms/Model/Entity/CMCStaticCellEntity.swift
+END
+OrderDetailEntity.swift
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/dev/!svn/ver/8312/shaohuo/trunk/Mobile/cmallcms2/cmallcms/Model/Entity/OrderDetailEntity.swift
+END
+OrderRefundEntity.swift
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/dev/!svn/ver/8201/shaohuo/trunk/Mobile/cmallcms2/cmallcms/Model/Entity/OrderRefundEntity.swift
+END
+OrderTrackItemEntity.swift
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/dev/!svn/ver/8201/shaohuo/trunk/Mobile/cmallcms2/cmallcms/Model/Entity/OrderTrackItemEntity.swift
+END
+SKUItemEntity.swift
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/dev/!svn/ver/8201/shaohuo/trunk/Mobile/cmallcms2/cmallcms/Model/Entity/SKUItemEntity.swift
+END
+ConvertResponse.swift
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/dev/!svn/ver/7972/shaohuo/trunk/Mobile/cmallcms2/cmallcms/Model/Entity/ConvertResponse.swift
+END
+PushMessageEntity.swift
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/dev/!svn/ver/7972/shaohuo/trunk/Mobile/cmallcms2/cmallcms/Model/Entity/PushMessageEntity.swift
+END
+OrderConst.swift
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/dev/!svn/ver/7972/shaohuo/trunk/Mobile/cmallcms2/cmallcms/Model/Entity/OrderConst.swift
+END
+ShopInfoEntity.swift
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/dev/!svn/ver/8312/shaohuo/trunk/Mobile/cmallcms2/cmallcms/Model/Entity/ShopInfoEntity.swift
+END
