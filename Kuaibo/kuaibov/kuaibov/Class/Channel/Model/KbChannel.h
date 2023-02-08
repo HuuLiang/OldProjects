@@ -1,0 +1,34 @@
+//
+//  KbChannel.h
+//  kuaibov
+//
+//  Created by Sean Yue on 15/9/3.
+//  Copyright (c) 2015年 kuaibov. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+typedef NS_ENUM(NSUInteger, KbChannelType) {
+    KbChannelTypeNone = 0,
+    KbChannelTypeVideo = 1,
+    KbChannelTypePicture = 2,
+    KbChannelTypeBanner = 3
+};
+
+@protocol KbChannel <NSObject>
+
+@end
+
+@interface KbChannel : KbChannels
+
+//@property (nonatomic) NSNumber *columnId;
+//@property (nonatomic) NSString *name;
+//@property (nonatomic) NSString *columnImg;
+//@property (nonatomic) NSString *spreadUrl;
+//@property (nonatomic) NSNumber *type;
+//@property (nonatomic) NSNumber *showNumber;
+//@property (nonatomic) NSNumber *items;
+//@property (nonatomic) NSNumber *page;
+//@property (nonatomic) NSNumber *pageSize;
+
+@end
