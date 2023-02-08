@@ -1,0 +1,110 @@
+//
+//  kb.pch
+//  kuaibov
+//
+//  Created by ZHANGPENG on 15/9/1.
+//  Copyright (c) 2015年 kuaibov. All rights reserved.
+//
+
+#ifndef kuaibov_kb_pch
+#define kuaibov_kb_pch
+#import <Foundation/Foundation.h>
+
+typedef NS_ENUM(NSUInteger, KbDeviceType) {
+    KbDeviceTypeUnknown,
+    KbDeviceType_iPhone4,
+    KbDeviceType_iPhone4S,
+    KbDeviceType_iPhone5,
+    KbDeviceType_iPhone5C,
+    KbDeviceType_iPhone5S,
+    KbDeviceType_iPhone6,
+    KbDeviceType_iPhone6P,
+    KbDeviceType_iPhone6S,
+    KbDeviceType_iPhone6SP,
+    KbDeviceType_iPhoneSE,
+    KbDeviceType_iPad = 100
+};
+
+typedef NS_ENUM(NSUInteger, KbPaymentType) {
+    KbPaymentTypeNone,
+    KbPaymentTypeAlipay = 1001,
+    KbPaymentTypeWeChatPay = 1008,
+    KbPaymentTypeIAppPay = 1009,
+    KbPaymentTypeVIAPay = 1010, //首游时空
+    KbPaymentTypeSPay = 1012, //威富通
+    KbPaymentTypeHTPay = 1015 //海豚支付
+};
+
+typedef NS_ENUM(NSUInteger, KbSubPayType) {
+    KbSubPayTypeUnknown = 0,
+    KbSubPayTypeWeChat = 1 << 0,
+    KbSubPayTypeAlipay = 1 << 1,
+    KbSubPayUPPay = 1 << 2,
+    KbSubPayTypeQQ = 1 << 3
+};
+
+typedef NS_ENUM(NSInteger, PAYRESULT)
+{
+    PAYRESULT_SUCCESS   = 0,
+    PAYRESULT_FAIL      = 1,
+    PAYRESULT_ABANDON   = 2,
+    PAYRESULT_UNKNOWN   = 3
+};
+typedef void (^KBKAction)(id obj);
+
+#define kBoldMediumFont [UIFont boldSystemFontOfSize:MIN(16, mainWidth*0.045)]
+#define kExExSmallFont [UIFont systemFontOfSize:MIN(10, mainWidth*0.03)]
+
+#define APP_VER        [[NSBundle mainBundle].infoDictionary objectForKey:@"CFBundleShortVersionString"]
+#define BUILD_VER      [[NSBundle mainBundle].infoDictionary objectForKey:(NSString *)kCFBundleVersionKey]
+#define mainHeight     [ [ UIScreen mainScreen ] bounds ].size.height
+#define mainWidth      [ [ UIScreen mainScreen ] bounds ].size.width
+#define LocalizedStr(key)  NSLocalizedString(key, @"")
+
+#define HexColor(hex) [UIColor colorWithHexString:@#hex]
+#define Color_DefaultBorder HexColor(#dbdbdb)
+#define kDefaultItemSpacing (3)
+
+#define kPaidNotificationName @"kuaibo_paid_notification"
+#define kPaidNotificationOrderNoKey @"kuaibo_paid_notification_order_key"
+#define kPaidNotificationPriceKey @"kuaibo_paid_notification_price_key"
+#define kPaidNotificationPaymentType @"kuaibo_paid_notification_payment_type"
+
+typedef void (^KbCompletionHandler)(BOOL success, id obj);
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "Constants.h"
+#import "NSObject+Properties.h"
+#import "UIViewExt.h"
+#import "UIView+StringTag.h"
+#import "NSString+meltutils.h"
+#import "NSString+md5.h"
+#import "NSString+length.h"
+#import "UIColor+hexColor.h"
+#import "UIColor+FeaturedColor.h"
+#import "UIView+border.h"
+#import "UIScrollView+Refresh.h"
+#import "RACEXTScope.h"
+#import "KbConfig.h"
+#import "KbUtil.h"
+#import "KbHudManager.h"
+#import "KbPaymentManager.h"
+#import "KbErrorHandler.h"
+#import "UIImage+color.h"
+#import <Aspects.h>
+#import <Masonry.h>
+#import <UIImageView+WebCache.h>
+#import <BlocksKit+UIKit.h>
+#import "UIImageView+YPBAnimation.h"
+
+
+#import "KbProgram.h"
+#import "KbChannels.h"
+
+#import "DBHandler.h"
+#import "KbNetworkInfo.h"
+#import "KbStatsManager.h"
+#import "KbNetworkInfo.h"
+
+#endif
